@@ -12,7 +12,7 @@ irow=$(trim $row)
 
 if [ ${irow} -eq 0 ]; then
 	echo "start jar....."
-	nohup java -jar OPC_v1.7.jar &
+	nohup java -jar MyNatClient.jar &
 	echo "jar starting..."	
 else
 	echo "jar has started"
